@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  display: grid;
+  place-content: center;
+  gap: 1rem;
+  line-height: 1.5;
+  font-family: "Roboto", system-ui;
+  background-color: #d8cbcb;
+}
+section {
+  background-color: #b6f6b6;
+  padding: 1.5rem;
+  width: 340px;
+  box-shadow: 0 0 6px 3px rgba(106, 105, 105, 0.4);
+}
+h3 {
+  margin: 0 0 1rem;
+  text-align: center;
+}
+h4 {
+  margin: 0.5rem 0;
+  text-align: center;
+}
+.upper-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.calcBtn {
+  float: right;
+  padding: 0.5rem 0.7rem;
+  cursor: pointer;
+}
+.result-div {
+  margin-top: 0.7rem;
+}
+.result-div p {
+  margin-top: 0.3rem;
+}
+.result-div span {
+  font-weight: 550;
+}
+.delete-btn {
+  float: right;
+  padding: 0;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+.delete-btn i {
+  font-size: 1.5rem;
+  color:#c48424;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input {
+  width: 90px;
+  float: right;
+  margin-left: 0.3rem;
+}
+.history {
+  text-align: left;
+  overflow-y: scroll;
+  max-height: 285px;
+}
+.history-title {
+  display: none;
+}
+.history div {
+  margin-bottom: 0.5rem;
+  border: 1px dashed #5b5b5b;
+  padding: .3rem;
+}
+::-webkit-scrollbar {
+  width: 0.7rem;
+}
+::-webkit-scrollbar-track {
+  background: #ffefdc;
+  border-radius: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: #efbc6a;
+  border-radius: 12px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d6b072;
+}
